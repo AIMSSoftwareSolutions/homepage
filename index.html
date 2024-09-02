@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Static Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            display: inline-block;
+        }
+
+        nav a:hover {
+            background-color: #555;
+        }
+
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+
+        .dropdown-content a:hover {
+            background-color: #ddd;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        .container {
+            padding: 20px;
+        }
+
+        .section {
+            margin-bottom: 40px;
+        }
+
+        .image-text-container {
+            display: flex;
+            align-items: center;
+            margin: 20px 0;
+        }
+
+        .image-placeholder {
+            background-color: #ddd;
+            width: 50%;
+            height: 150px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 20px; /* Adds space between image and text */
+        }
+
+        .text-between-images {
+            width: 50%;
+        }
+
+        .video-placeholder {
+            background-color: #ddd;
+            width: 100%;
+            height: 200px;
+            margin: 10px 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        @media (max-width: 768px) {
+            .image-text-container {
+                flex-direction: column;
+            }
+
+            .image-placeholder, .text-between-images {
+                width: 100%;
+                margin-right: 0; /* Reset margin for stacked layout */
+                margin: 10px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#products">Products</a>
+            <div class="dropdown">
+                <a href="#projects">Projects</a>
+                <div class="dropdown-content">
+                    <a href="#basketball-tracker">Basketball Tracker</a>
+                    <a href="#bookkeeping">Bookkeeping Made Easy</a>
+                    <a href="#another-project">Another Project</a>
+                </div>
+            </div>
+            <a href="#contact">Partners</a>
+            <a href="#jobs">Jobs</a>
+            <a href="#about">Contact</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <!-- Home Section -->
+        <div id="home" class="section">
+            <h1>Welcome to Our Website!</h1>
+            <div class="image-text-container">
+                <div class="image-placeholder">Image Placeholder 1</div>
+            <p>AIMS Software Solutions is committed to delivering high-quality and innovative software solutions that cater to a diverse range of needs, ensuring accessibility and usability for everyone. Our mission extends beyond just creating exceptional software; we also prioritize outstanding customer support and fostering a positive work environment that enhances employee satisfaction and well-being.</p>
+            <p>Our software solutions are designed for both private and business use, spanning various sectors and applications. The inspiration for founding AIMS Software Solutions stemmed from the desire to develop a personal stats tracker for basketball workouts and games. This initial idea quickly revealed its potential for broader applications, including use by sports clubs and associations to enhance performance tracking and analysis.</p>
+            <p>Looking ahead, AIMS Software Solutions aims to expand its portfolio by exploring new projects that integrate software with hardware, further enhancing the functionality and reach of our products. By constantly innovating and adapting to the evolving needs of our users, we strive to make a significant impact across multiple industries, always with a focus on quality, support, and employee happiness.</p>
+            
+
+
+        <!-- Products Section -->
+        <div id="products" class="section">
+            <h2>Our Products</h2>
+            <p>At our company, we offer a variety of software solutions designed to meet the diverse needs of both individuals and businesses. Our main focus is on developing our own software projects, which come in both free and paid versions. The free versions provide essential features for users to get started, while the paid versions offer advanced functionalities for those who need more comprehensive solutions.</p>
+            <p>We also specialize in custom software development for businesses that require specific solutions. This is a one-time service where we create tailored software based on the client's unique needs, without any ongoing support after delivery.</p>
+            <p>Additionally, we offer development and support services on a subscription basis for companies that need continuous software enhancement and maintenance. Our subscription service includes regular updates, support, and ongoing development to ensure that the software evolves with the business and remains efficient over time.</p>
+            <p>Choose our services to benefit from our expertise in software development and support. We are committed to providing high-quality, reliable software solutions that are tailored to your needs, whether you require a one-time custom solution or ongoing support and development. </p>
+            <div class="image-placeholder">Image Placeholder</div>
+        </div>
+
+  <!-- Projects Section -->
+<div id="projects" class="section">
+    <h2>Our Projects</h2>
+    <p>Explore our various projects and see how we are making a difference!</p>
+
+    <!-- Basketball Tracker Universe -->
+    <div class="project">
+        <h3>Basketball Tracker Universe - Still Waiting for Realease</h3>
+        <p>The Basketball Tracker Universe is a collection of different basketball apps. Customize your experience by adding the apps that fit your needs to your shopping cart.</p>
+        <ul>
+            <li>Basketball Stats Tracker - Personal</li>
+            <li>Basketball Stats Tracker - Teams</li>
+            <li>Stats Assistant</li>
+            <li>Voice Recognition</li>
+        </ul>
+        <p><strong>You can find more information on the Basketball Stats Universe Website.</strong></p>
+    </div>
+
+    <!-- Pending Project Subsection -->
+    <div id="another-project" class="project">
+        <h3>Pending Projects</h3>
+<p>In addition to our core projects, we are also working on two exciting new developments: <strong>Bookkeeping Made Easy</strong> and <strong>Dream Home</strong>. <strong>Bookkeeping Made Easy</strong> aims to simplify financial management for individuals and businesses, providing a user-friendly tool for keeping track of finances effortlessly. <strong>Dream Home</strong> is designed to assist homeowners and prospective buyers in planning, designing, and organizing their ideal living spaces with ease.</p>
+
+<p>We are thrilled about the potential of these projects and can't wait to share more details with you as they progress. Stay tuned for updates on our journey to bring these innovative solutions to life!</p>
+
+    </div>
+</div>
+  
+    
+    
+    
+        
+        
+        
+ <!-- Partner Section -->
+        <div id="partners" class="section">
+            <h2>Our Partners</h2>
+            <div id="jobs" class="section">
+<div id="jobs" class="section">
+  <p>
+We currently do not have any partners, but we are excited about the future and look forward to announcing our first partnership soon. Stay tuned for more updates, especially as we prepare to release our first specialist product. We can't wait to share these milestones with you!</p>
+
+
+        <!-- Jobs Section -->
+        <div id="jobs" class="section">
+            <h2>Jobs</h2>
+            <div id="jobs" class="section">
+<div id="jobs" class="section">
+    <h3>Careers at AIMS Rüfenacht Software Solutions</h3>
+    <p>
+        At AIMS, we believe that our employees are the backbone of our success.
+        We are dedicated to creating a positive and supportive work environment that fosters innovation, collaboration, and professional growth. <br>
+        <br><strong>While we are currently not hiring</strong>, we are always interested in connecting with talented and passionate individuals who share our commitment to quality and innovation. <br>
+        We encourage you to check back regularly for open positions, which will be listed on our careers page. <br>
+        Join us on our journey to deliver cutting-edge software solutions and exceptional customer experiences.
+    </p>
+</div>
+        <!-- Contact Section -->
+<div id="contact" class="section">
+    <h2>Contact Us</h2>
+    <p>Have questions? Reach out to us through the form below, and we'll get back to you as soon as possible.</p>
+    
+    <!-- Contact Form -->
+    <form action="mailto:infoaims@icloud.com" method="post" enctype="text/plain">
+        <div class="form-group">
+            <label for="name">Name:   </label>
+            <input type="text" id="name" name="name" required>
+        </div>
+        <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+            <label for="subject">Subject:</label>
+            <input type="text" id="subject" name="subject" required>
+        </div>
+        <div class="form-group">
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+        </div>
+        <button type="submit">Send Message</button>
+    </form>
+</div>
+
+
+</body>
+</html>
