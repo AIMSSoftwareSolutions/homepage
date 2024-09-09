@@ -1,0 +1,27 @@
+{
+    "home": {
+        "title": "Welcome to Our Website!",
+        "description": "AIMS Software Solutions is committed to delivering high-quality and innovative software solutions..."
+    },
+    "products": {
+        "title": "Our Products",
+        "description": "At our company, we offer a variety of software solutions designed to meet the diverse needs of both individuals and businesses..."
+    },
+    "projects": {
+        "title": "Our Projects",
+        "description": "Explore our various projects and see how we are making a difference!"
+    },
+    "partners": {
+        "title": "Our Partners",
+        "description": "We currently do not have any partners, but we are excited about the future..."
+    },
+    "jobs": {
+        "title": "Jobs",
+        "description": "Careers at AIMS Rüfenacht Software Solutions..."
+    },
+    "contact": {
+        "title": "Contact Us",
+        "description": "Have questions? Reach out to us through the form below..."
+    },
+    "submit": "Send Message"
+}
