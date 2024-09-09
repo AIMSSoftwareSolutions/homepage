@@ -1,0 +1,27 @@
+{
+    "home": {
+        "title": "Willkommen auf unserer Website!",
+        "description": "AIMS Software Solutions verpflichtet sich, hochwertige und innovative Softwarelösungen zu liefern..."
+    },
+    "products": {
+        "title": "Unsere Produkte",
+        "description": "In unserem Unternehmen bieten wir eine Vielzahl von Softwarelösungen an, die den unterschiedlichen Bedürfnissen von Privatpersonen und Unternehmen gerecht werden..."
+    },
+    "projects": {
+        "title": "Unsere Projekte",
+        "description": "Erforschen Sie unsere verschiedenen Projekte und sehen Sie, wie wir einen Unterschied machen!"
+    },
+    "partners": {
+        "title": "Unsere Partner",
+        "description": "Wir haben derzeit keine Partner, aber wir sind gespannt auf die Zukunft..."
+    },
+    "jobs": {
+        "title": "Jobs",
+        "description": "Karrieren bei AIMS Rüfenacht Software Solutions..."
+    },
+    "contact": {
+        "title": "Kontaktieren Sie uns",
+        "description": "Haben Sie Fragen? Kontaktieren Sie uns über das Formular unten..."
+    },
+    "submit": "Nachricht senden"
+}
